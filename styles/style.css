@@ -5,22 +5,64 @@
 }
 html{
     width: 100vw;
-    height: 100vh;
 }
 
 body{
-    background-image: linear-gradient(to right, black, rgb(41, 1, 41));
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(to right, black, rgb(41, 1, 41));  
 }
-#flex-container{
+
+main{
+    height: 100vh;
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
 }
+
 #login{
-    display: flexbox;
-    width:300px ;
-    height: 600px;
+    width:250px ;
+    height: 570px;
     background-color: white;
     border-radius: 25px;
+    
+}
+
+#imagem{
+    background-image: url(../images/cosmic-background-with-colorful-blue-orange-laser-lights-perfect-digital-wallpaper.jpg);
+    background-position: center;
+    height: 40%;
+    border-radius: 25px 25px 0 0;
+}
+
+#formulario{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.bi-person, .bi-key-fill{
+    color: white;
+    font-size: 1.4em;
+}
+
+.user{
+    background-color: blueviolet;
+    width: 210px;
+    height: 45px;
+    margin: auto;
+    border-radius: 10px;
+    margin: 10px 0px ;
+}
+body input{
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(253, 122, 0);
+}
+input[type=submit]{
+    height: 50px;
+    width: 150px;
+    margin: 2px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-size: 1.1em;
 }
